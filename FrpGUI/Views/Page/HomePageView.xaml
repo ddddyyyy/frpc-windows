@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="FrpGUI.Views.Page.HomePageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="White" FontSize="14">
+    <StackPanel Margin="0,0,0,0" Orientation="Vertical">
+        <Label  HorizontalContentAlignment="Center"  Content="FRP的Windows客户端" Height="100"  FontSize="30" VerticalContentAlignment="Center" Margin="0,0,0,0" FontFamily="Microsoft JhengHei" FontWeight="Bold" HorizontalAlignment="Center" />
+        <TextBlock Margin="27,0,50,10" TextWrapping="Wrap">
+            <Run Text="控件使用了MaterialDesignInXAML这款开源的WPF控件库"/>
+            <LineBreak/>
+            <LineBreak/>
+            <Run Text="使用了Caliburn.Micro这个来源解耦控件来实现XAML和CS文件分离"/>
+            <LineBreak/>
+            <LineBreak/>
+            <Run Text="使用hardcodet的NotifyIcon实现工具栏小图标，由于MaterialDesignInXAML的问题，小图标的ToolTip文字会错位，解决方法为修改App.xmal文件，具体看文件。"/>
+        </TextBlock>
+    </StackPanel>
+</UserControl>
